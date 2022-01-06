@@ -10,7 +10,7 @@ ul{
     list-style: none;
     font-size: 24px;
     font-weight: 100;
-    letter-spacing: 12px;
+    letter-spacing: .2048rem;
 }
 
 .name{
@@ -51,6 +51,11 @@ h1{
     font-weight: 700;
 }
 
+.subtext{
+    font-size: 18px;
+    font-weight: 300;
+}
+
 .circle{
     position: absolute;
     z-index: -1;
@@ -64,12 +69,14 @@ h1{
     color: white;
     background-color: #FA6E40;
     border-radius: 25px;
+    font-size: 18px;
 }
 
 .btn-contact{
     color: #333333;
     border-radius: 25px;
     border-color: #333333;
+    font-size: 18px;
 }
 
 .wave{
