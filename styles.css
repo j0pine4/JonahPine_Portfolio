@@ -1,0 +1,80 @@
+*{
+    font-family: 'Roboto', sans-serif;
+}
+
+body{
+    background-color: #FAF8EC;
+}
+
+ul{
+    list-style: none;
+    font-size: 24px;
+    font-weight: 100;
+    letter-spacing: 12px;
+}
+
+.name{
+    font-size: 28px;
+}
+
+li:hover{
+    color: #FA6E40;
+    cursor: pointer;
+}
+
+.dash{
+    color: #D6D6D6;
+}
+
+.active{
+    color: #FA6E40;
+    font-weight: 700;
+    text-decoration: underline;
+}
+
+.watermark h1{
+    text-overflow: clip;
+    position: absolute;
+    top: 15vh;
+    z-index: -1;
+    left: -5rem;
+    font-size: 190px;
+    color: #E6E4DA;
+}
+
+.container{
+    height: 100vh;
+}
+
+h1{
+    font-size: 3rem;
+    font-weight: 700;
+}
+
+.circle{
+    position: absolute;
+    z-index: -1;
+    height: 45vh;
+    width: 45vh;
+    background-color: #FFD583;
+    border-radius: 50%;
+}
+
+.btn-view{
+    color: white;
+    background-color: #FA6E40;
+    border-radius: 25px;
+}
+
+.btn-contact{
+    color: #333333;
+    border-radius: 25px;
+    border-color: #333333;
+}
+
+.wave{
+    position: absolute;
+    left: -10vw;
+    width: 110vw;
+    overflow: hidden;
+}
