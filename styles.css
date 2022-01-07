@@ -26,6 +26,11 @@ li:hover{
     color: #D6D6D6;
 }
 
+.primary-header{
+    padding-top: 10vh;
+    line-height: 168.2%;
+}
+
 .active{
     color: #FA6E40;
     font-weight: 700;
@@ -84,4 +89,14 @@ h1{
     left: -10vw;
     width: 110vw;
     overflow: hidden;
+}
+
+.line-01{
+    position: absolute;
+    z-index: -5;
+    width: 80vw;
+    top: 30vh;
+    left: -15vw;
+    overflow: hidden;
+    opacity: 30%;
 }
