@@ -1,5 +1,7 @@
 *{
     font-family: 'Roboto', sans-serif;
+    padding: 0px;
+    margin: 0px;
 }
 
 body{
@@ -67,11 +69,15 @@ h1{
 
 .circle{
     position: absolute;
-    z-index: -1;
+    z-index: 0;
     height: 45vh;
     width: 45vh;
     background-color: #FFD583;
     border-radius: 50%;
+}
+
+img{
+    z-index: 1;
 }
 
 .btn-view{
