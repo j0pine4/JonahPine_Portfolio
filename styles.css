@@ -31,6 +31,10 @@ li:hover{
     line-height: 168.2%;
 }
 
+.primary-header h1:hover{
+    color: #FA6E40;
+}
+
 .active{
     color: #FA6E40;
     font-weight: 700;
@@ -99,4 +103,9 @@ h1{
     left: -15vw;
     overflow: hidden;
     opacity: 30%;
+}
+
+/* About Me Page */
+.about-me{
+    background-color: #FAEADB;
 }
