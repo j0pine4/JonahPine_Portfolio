@@ -35,6 +35,7 @@ li:hover{
 
 .primary-header h1:hover{
     color: #FA6E40;
+    cursor: pointer;
 }
 
 .active{
@@ -47,19 +48,31 @@ li:hover{
     text-overflow: clip;
     position: absolute;
     top: 15vh;
-    z-index: -1;
+    z-index: 0;
     left: -5rem;
     font-size: 190px;
-    color: #E6E4DA;
+    color: rgba(51, 51, 51, 0.1);
+}
+
+.watermark-02 h1{
+    text-overflow: clip;
+    position: absolute;
+    top: 0vh;
+    z-index: 0;
+    left: -5rem;
+    font-size: 190px;
+    color: rgba(51, 51, 51, 0.1);
 }
 
 .container{
-    height: 100vh;
+    position: relative;
+    height: 80vh;
 }
 
 h1{
     font-size: 3rem;
     font-weight: 700;
+    color: #333333;
 }
 
 .subtext{
@@ -94,11 +107,22 @@ img{
     font-size: 18px;
 }
 
+.btn-contact:hover{
+    color: #FA6E40;
+    border-color: #FA6E40;
+}
+
 .wave{
+    display: flex;
+    background-image: url("img/home/waves.svg");
+    background-repeat: no-repeat;
     position: absolute;
-    left: -10vw;
-    width: 110vw;
-    overflow: hidden;
+    background-size: cover;
+    width: 120vw;
+    height: 25%;
+    bottom: 0;
+    left: -20vw;
+    background-clip: content-box;
 }
 
 .line-01{
@@ -114,4 +138,8 @@ img{
 /* About Me Page */
 .about-me{
     background-color: #FAEADB;
+}
+
+.about{
+    font-size: 1.5rem;
 }
